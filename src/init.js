@@ -35,7 +35,9 @@ $(document).ready(function() {
   });
 
   $('.lineUpButton').on('click', function(event) {
-    window.dancers.forEach((dancer, index) => dancer.lineUp(index));
+    window.dancers.forEach((dancer, index) => {
+      dancer.lineUp(index);
+    });
   });
 
   $('.superHeroDancer').hover(function() {
