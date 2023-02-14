@@ -40,8 +40,7 @@ Dancer.prototype.setPosition = function(top, left) {
 
 Dancer.prototype.lineUp = function(index) {
   //Will need to change top property to get spacing
-  this.setPosition(index * 5, 0);
-  this.timeBetweenSteps = 0;
+  this.setPosition(40 + index * 50, 0);
 };
 
 // now that we have defined the dancer object, we can start setting up important parts of it by calling the methods we wrote

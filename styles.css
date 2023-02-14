@@ -5,6 +5,8 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image:url("images/stage.jpg");
+  background-size:100vw 100vh;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -29,8 +31,32 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
+
 .dancer{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+
+.popDancer{
+  border:10px solid yellow;
+  border-radius:0px;
+}
+
+.saitamaHeroDancer{
+  border:none;
+  border-radius:0px;
+  height:50px;
+  width:50px;
+  background-image:url('images/saitama1.png');
+  background-size:cover;
+}
+
+.drakeDancer{
+  border:none;
+  border-radius:0px;
+  height:50px;
+  width: 35px;
+  background-image:url('images/drake.png');
+  background-size:cover;
 }

@@ -22,11 +22,11 @@ BlinkyDancer.prototype.step = function() {
   // other effects you can use on a jQuery-wrapped html tag.
   //this.setPosition();
   this.$node.toggle();
-  this.$node.animate({
-    left: '+=50',
-    top: '+=50'
-  }, this.timeBetweenSteps
-  );
+  // this.$node.animate({
+  //   left: '+=50',
+  //   top: '+=50'
+  // }, this.timeBetweenSteps
+  // );
 };
 // BlinkyDancer.prototype.oldStep = function() {
 //   Dancer.prototype.step.call(this);
