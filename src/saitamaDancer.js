@@ -1,5 +1,5 @@
 var SaitamaHeroDancer = function(top, left, timeBetweenSteps) {
-  Dancer.call(this, top, left, timeBetweenSteps);
+  superHeroDancer.call(this, top, left, timeBetweenSteps);
 
 
   // this.color = this.$node.css({color: 'yellow'});
@@ -11,7 +11,7 @@ var SaitamaHeroDancer = function(top, left, timeBetweenSteps) {
   // so we must keep a copy of the old version of this function
 
 SaitamaHeroDancer.prototype = Object.create(superHeroDancer.prototype);
-SaitamaHeroDancer.prototype.constructor = saitamaHeroDancer;
+SaitamaHeroDancer.prototype.constructor = SaitamaHeroDancer;
 
 
 SaitamaHeroDancer.prototype.punch = function() {
